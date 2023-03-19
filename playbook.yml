@@ -1,0 +1,25 @@
+---
+- name: Install Docker, PostgreSQL, and MongoDB
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+      tags:
+        - docker
+
+    - name: Install PostgreSQL
+      apt:
+        name: postgresql
+        state: present
+      tags:
+        - postgresql
+
+    - name: Install MongoDB
+      apt:
+        name: mongodb
+        state: present
+      tags:
+        - mongodb
