@@ -23,3 +23,10 @@
         state: present
       tags:
         - mongodb
+    - name: Install MySQL
+      apt:
+        name: mysql-server
+        state: present
+      tags:
+        - mysql
+
