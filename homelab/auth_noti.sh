@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Discord webhook URL
-WEBHOOK_URL="https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
+WEBHOOK_URL="https://discord.com/api/webhooks/1119079326109929613/KYUS0q1koizoMjJRYcZzCn7Oovoy2hCH7wTSzQVvwMsVvflleOZL2uvoktWQOtMyi1qF"
 
 # Parameters
 EVENT_TYPE=$1          # "Login" or "Logout"
